@@ -1,0 +1,126 @@
+// Place all the styles related to the batman controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar{
+    background-image: none;
+    background-color: black;
+}
+nav {
+
+  div {
+    background-color: black;
+     ul {
+      background-color: black;
+      li {
+        a {
+          text-decoration: none;
+          color: yellow !important;
+          background-color: black !important;
+        }
+        a:hover {
+          text-decoration: none;
+          color: yellow !important;
+          background-color: #2C3E50 !important;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+.hero {
+  height: 500px;
+  background-color: #2E044E;
+  text-align: center;
+  border-bottom: 4px solid black;
+  div {
+    height: 100%;
+    img {
+      margin-top: 50px;
+      height: 90%;
+      max-width: 100%;
+    }
+  }
+}
+
+
+.Origin {
+  border-bottom: 4px solid black;
+  .Origin-background {
+    padding: 6.5%;
+    background-image: url("batman.jpg");
+    background-repeat: no-repeat;
+    .row {
+      padding: 0;
+      h2 {
+        font-size: 3.3em;
+        font-family: "bangers";
+        color: yellow;
+        background-color: rgba(0,0,0,.1);
+        line-height: 1.3em;
+        text-align: center;
+      }
+      p {
+        padding: 20px;
+        background-color: rgba(0,0,0,.6);
+        color: #F2ECEC;
+        line-height: 1.8em;
+      }
+    }
+  }
+}
+
+.West {
+  height: 585px;
+  margin-left: 100px;
+  .West-wallpaper {
+    background-image: url("west-background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    .row {
+      padding: 0;
+    h2 {
+      font-size: 4em;
+      font-family: "bangers";
+      color: #55148E;
+      line-height: 1.3em;
+      padding-top: 20px;
+      margin-left: 40px;
+      text-align: center;
+    }
+    h4 {
+      font-family: "bangers";
+      text-align: center;
+      margin-top: -20px;
+      font-size: 2em;
+    }
+    h1 {
+      color: red;
+      font-family: "bangers";
+      margin-top: -10px;
+      font-size: 4em;
+      text-align: center;
+    }
+  }
+  .images {
+
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    float: left;
+    height: 50%;
+    width: 90%;
+    div {
+      img {
+      border: 2px solid black;
+    }
+
+    }
+          }
+
+   }
+  }
